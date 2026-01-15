@@ -1,12 +1,12 @@
 Retail Banking: Predictive Churn Pipeline & Risk Segmentation
 
-📌 Project Overview
+Project Overview
 
 This project provides an end-to-end Machine Learning solution for a retail bank to identify customers likely to close their accounts. In competitive markets like Canada (RBC/CIBC) or the Caribbean (Sagicor), retaining high-value customers is 5x cheaper than acquiring new ones.
 
 This pipeline doesn't just predict "who" leaves, but explains "why" they leave and quantifies the financial balance at risk.
 
-🚀 Key Results
+Key Results
 
 - Predictive Power: Achieved an 81% ROC-AUC using an optimized XGBoost model.
 
@@ -14,7 +14,7 @@ This pipeline doesn't just predict "who" leaves, but explains "why" they leave a
 
 - Business Impact: Identified $40M+ in deposits held by high-value "Platinum" customers currently in the critical risk tier.
 
-🛠️ Data Science Workflow
+Data Science Workflow
 
 1. Advanced Feature Engineering
 
@@ -38,7 +38,7 @@ Using SHAP, we moved beyond the "black box."
 
 Comparison between baseline Logistic Regression and Gradient Boosting (XGBoost).
 
-💼 Business Strategy & Dashboard
+Business Strategy & Dashboard
 
 The model segments customers into a Risk-Value Matrix:
 
@@ -51,7 +51,7 @@ Financial Exposure Dashboard
 
 The pipeline generates interactive Plotly dashboards allowing executives to see exactly how much capital is at risk of leaving the bank.
 
-📂 Repository Structure
+Repository Structure
 
 - 1_data_generation.py: Creates synthetic banking dataset.
 
@@ -65,7 +65,7 @@ The pipeline generates interactive Plotly dashboards allowing executives to see 
 
 - 6_segmentation_dashboard.py: Risk-tiering and CRM-ready export.
 
-⚙️ Setup & Installation
+Setup & Installation
 
 1. Clone the repo: git clone https://github.com/pxndacoder/bank-churn-prediction.git
 
